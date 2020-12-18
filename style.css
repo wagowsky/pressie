@@ -55,7 +55,6 @@ h1 {
   top: 0;
   box-shadow: 0.1rem 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
   z-index: 1;
-  transition: top ease-out 5s;
 }
 .box {
   height: 45%;
@@ -88,7 +87,6 @@ h1 {
 .message {
   height: 0;
   opacity: 0;
- 
 }
 
 .message a {
@@ -104,8 +102,8 @@ h1 {
 .present:hover .lid {
   top: -20rem;
   opacity: 1;
-  
-  transition: opacity 5s, top ease-out .5s;
+
+  transition: opacity 5s, top ease-out 0.5s;
 }
 
 @media (max-width: 800px) {
