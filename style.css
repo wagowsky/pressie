@@ -51,8 +51,10 @@ h1 {
 
 .lid {
   height: 15vh;
+  top: 0;
   box-shadow: 0.1rem 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
   z-index: 1;
+  transition: top ease-out 0.7s;
 }
 .box {
   height: 45vh;
@@ -83,7 +85,9 @@ h1 {
   display: block;
 }
 .message {
+  top: 0;
   height: 0;
+  transition: top ease-out 0.7s;
 }
 
 .message a {
