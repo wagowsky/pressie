@@ -80,8 +80,7 @@ h1 {
   width: 8rem;
 }
 .box span,
-.lid span
-{
+.lid span {
   display: block;
 }
 .message {
@@ -91,7 +90,7 @@ h1 {
 }
 
 .message a {
-    display:none;
+  display: none;
   text-decoration: none;
   font-size: 4rem;
   line-height: 6rem;
@@ -102,10 +101,15 @@ h1 {
 
 .present:hover .message,
 .present:hover .lid {
-    
   top: -25rem;
 }
 
 .present:hover .message a {
-    display:block;
+  display: block;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 31.25%;
+  }
 }
