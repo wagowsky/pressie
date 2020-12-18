@@ -114,8 +114,3 @@ h1 {
   }
 }
 
-@media (max-width:500px) and (min-width:900px) {
-    html {
-      font-size: 31.25%;
-    }
-  }
