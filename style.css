@@ -103,7 +103,7 @@ h1 {
   top: -20rem;
   opacity: 1;
 
-  transition: opacity 5s, top ease-out 0.5s;
+  transition: opacity 2s, top ease-out 0.5s;
 }
 
 @media (max-width: 800px) {
