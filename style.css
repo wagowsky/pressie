@@ -78,7 +78,7 @@ h1 {
 .box span:last-child,
 .lid span {
   height: 100%;
-  left: calc(50% - 4rem);
+  left: calc(50% - 7.5%);
   width: 15%;
 }
 .box span,
