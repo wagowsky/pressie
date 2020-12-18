@@ -88,7 +88,7 @@ h1 {
 .message {
   top: 0;
   height: 0;
-  transition: top ease-out 0.7s;
+  transition: top ease-out 1s;
 }
 
 .message a {
