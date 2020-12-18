@@ -29,7 +29,7 @@ h1 {
 }
 
 .present {
-  width: 50%;
+  max-width: 60rem;
   padding-top: 20%;
   height: 100vh;
 }
@@ -109,5 +109,11 @@ h1 {
 @media (max-width: 800px) {
   html {
     font-size: 15.6%;
+    
   }
+  
+.present {
+  max-width: 80%;
+  
+}
 }
