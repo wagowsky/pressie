@@ -80,8 +80,8 @@ h1 {
   width: 8rem;
 }
 .box span,
-.lid span,
-.message a {
+.lid span
+{
   display: block;
 }
 .message {
@@ -91,6 +91,7 @@ h1 {
 }
 
 .message a {
+    display:none;
   text-decoration: none;
   font-size: 4rem;
   line-height: 6rem;
@@ -101,5 +102,10 @@ h1 {
 
 .present:hover .message,
 .present:hover .lid {
+    
   top: -25rem;
+}
+
+.present:hover .message a {
+    display:block;
 }
