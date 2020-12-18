@@ -89,6 +89,7 @@ h1 {
   top: 0;
   height: 0;
   transition: top ease-out 1s;
+ 
 }
 
 .message a {
@@ -103,11 +104,14 @@ h1 {
 
 .present:hover .message,
 .present:hover .lid {
-  top: -25rem;
+  top: -25%;
 }
 
 .present:hover .message a {
+    
   display: block;
+ 
+  
 }
 
 @media (max-width: 500px) {
